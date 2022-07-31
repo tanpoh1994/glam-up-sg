@@ -1,11 +1,21 @@
 import './App.css';
-import GlamUpNavbar from "./navbar/navbar"
+import GlamUpNavbar from "./navbar/navbar";
+import GlamUpFooter from './footer/footer';
 
 
 function App() {
   return (
     <div className="App">
       <GlamUpNavbar />
+      <div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+      </div>
+      <GlamUpFooter />
     </div>
   );
 }
