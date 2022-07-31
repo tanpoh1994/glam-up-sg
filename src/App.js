@@ -8,12 +8,6 @@ function App() {
     <div className="App">
       <GlamUpNavbar />
       <div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
       </div>
       <GlamUpFooter />
     </div>

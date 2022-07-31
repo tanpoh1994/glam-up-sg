@@ -1,15 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "./logo.png"
 import './navbar.css';
-import './Gabriela-Regular.ttf';
 
 function GlamUpNavbar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar  expand="lg">
       <Container>
         <Navbar.Brand href="#home"><img src={logo}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

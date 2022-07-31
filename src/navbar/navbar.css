@@ -1,10 +1,13 @@
 @font-face {
     font-family: "Gabriela";
     src: local("Gabriela"),
-      url("./Gabriela-Regular.ttf") format("truetype");
+      url("../common/Gabriela-Regular.ttf") format("truetype");
     font-weight: normal;
     }
-.container {
+.navbar {
     font-family: Gabriela;
     color: #a83299;
+    background-color: #F6EAF6;
+    border-bottom: 2px solid #a83299;
+    width:100%;
     }
