@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Gabriela";
+    src: local("Gabriela"),
+      url("./Gabriela-Regular.ttf") format("truetype");
+    font-weight: normal;
+    }
+.container {
+    font-family: Gabriela;
+    color: #a83299;
+    }
