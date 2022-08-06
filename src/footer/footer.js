@@ -24,13 +24,7 @@ return(
                         TEL: 65 8608 1401<br></br>
                         EMAIL: glamup-sg@gmail.com
             </FooterLink>
-          </Column>
-          <Column>
-            <Heading>Quick Links</Heading>
-            <FooterLink href="#">Gallery</FooterLink>
-            <FooterLink href="#">Services</FooterLink>
-
-          </Column>          
+          </Column>     
           <Column>
             <Heading>Social Media</Heading>
             <FooterLink href="#">

@@ -17,7 +17,7 @@ border-top: 2px solid #a83299;
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
-	max-width: 1000px;
+	max-width: 800px;
 	justify-content: center;
 	margin: 0 auto;
 	/* background: red; */
