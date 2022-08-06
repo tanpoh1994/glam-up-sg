@@ -1,23 +1,56 @@
+import React from "react";
+import {
+  Box,
+  Container,
+  Row,
+  Column,
+  FooterLink,
+  Heading,
+} from "./FooterStyles";
 import './footer.css';
-import facebook from './facebook.png';
-import instagram from './instagram.png'
+import facebook from "./facebook.png"
+import instagram from "./instagram.png"
 
 function GlamUpFooter() {
 return(
-<div className='footer'>
-    <div className='footer_text'>
-        <p className='footer_p'> © 2022 GlamUp SG. All rights reserved. No pictures are to be reused without approval from the owner. </p>
-        <p className='footer_p'>GlamUp SG - Taking care of all of your needs.</p>
-        <p className='footer_p'>Recommended view in deskstop.</p>
-    </div>
-    <div className='footer_socialmedia_icons'>
-        <img className='footer_icon' src={facebook} href='#' alt ='facebook-link'/>
-        <img className='footer_icon' src={instagram}  href='#' alt = 'instagram-link'/>
-    </div>
+<Box>
+      <Container>
+        <Row>
+          <Column className='contact_info'>
+            <Heading>CONTACT INFORMATION</Heading>
+            <FooterLink >647A Tampines St 62 <br></br>
+                        #04-197<br></br>
+                        SINGAPORE 521647<br></br>
+                        TEL: 65 8608 1401<br></br>
+                        EMAIL: glamup-sg@gmail.com
+            </FooterLink>
+          </Column>
+          <Column>
+            <Heading>Quick Links</Heading>
+            <FooterLink href="#">Gallery</FooterLink>
+            <FooterLink href="#">Services</FooterLink>
 
-
-
-</div>
+          </Column>          
+          <Column>
+            <Heading>Social Media</Heading>
+            <FooterLink href="#">
+              <i className="fab fa-facebook-f">
+                <span style={{ marginLeft: "10px" }}>
+                  <img className="social_icon" src={facebook}  />Facebook
+                </span>
+              </i>
+            </FooterLink>
+            <FooterLink href="#">
+              <i className="fab fa-instagram">
+                <span style={{ marginLeft: "10px" }}>
+                <img className="social_icon" src={instagram}  />Instagram
+                </span>
+              </i>
+            </FooterLink>
+          </Column>
+        </Row>
+      </Container>
+    </Box>
 
 )
 
