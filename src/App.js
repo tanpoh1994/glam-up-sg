@@ -1,15 +1,25 @@
 import './App.css';
 import GlamUpNavbar from "./navbar/navbar";
 import GlamUpFooter from './footer/footer';
+import GlamUpContactPage from './contactpage/contactpage';
 
 
 function App() {
   return (
     <div className="App">
-      <GlamUpNavbar />
       <div>
+        <GlamUpNavbar />
       </div>
-      <GlamUpFooter />
+
+
+        <div className='contents'>
+          <GlamUpContactPage/>
+        </div>
+
+      <div className="footer">
+        <GlamUpFooter />
+      </div>
+
     </div>
   );
 }

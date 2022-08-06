@@ -4,7 +4,37 @@
     url("./common/Gabriela-Regular.ttf") format("truetype");
   font-weight: normal;
   }
-
+html,
+body {
+    height: 100%;
+  }
+body{
+  padding: 0;
+  margin: 0;
+  }
 .App{
   font-family: Gabriela;
 }
+html{
+  background-color: #F6EAF6;
+}
+.contents{
+  background-color: #F6EAF6;
+  min-height: 100%;
+  height: auto;
+  margin-bottom: -60px;
+  box-sizing: border-box;
+
+}
+.contents:after {
+  display: block;
+  content: '';
+  height: 60px;
+}
+.footer {
+  overflow: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+ } 
